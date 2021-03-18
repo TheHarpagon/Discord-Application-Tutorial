@@ -1,7 +1,7 @@
 ![PyPI - Status](https://img.shields.io/pypi/status/discord.py) ![PyPI](https://img.shields.io/pypi/v/discord.py)
 # Discord Application Tutorial
 
-This is a tutorial on how to make a [Discord](https://discord.com) Application with the [`discord.py`](https://discordpy.readthedocs.io/en/latest/index.html) library. The application will be hosted on [Replit](https://replit.com) with [UptimeRobot](https://uptimerobot.com) to ensure a 24/7 uptime. The duration of this project is from `15` to `45` minutes.
+A tutorial on how to make a [Discord](https://discord.com) Application with the [`discord.py`](https://discordpy.readthedocs.io/en/latest/index.html) library. The application will be hosted on [Replit](https://replit.com) with [UptimeRobot](https://uptimerobot.com) to ensure a 24/7 uptime. The duration of this project is from `15` to `45` minutes.
 
 &NewLine;
 ## Platforms
@@ -135,4 +135,4 @@ Go to your previously created server and test out the following commands.
 &NewLine;
 ## Support
 
-If you encountered any errors, feel free to direct message me on my Discord (found [here](https://dsc.bio/TheHarpagon))!
+If you encountered any errors, feel free to direct message me on my Discord [here](https://dsc.bio/TheHarpagon)!
