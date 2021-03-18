@@ -5,6 +5,7 @@ import random
 app = Flask("")
 @app.route("/")
 
+
 def home():
 	return("Online!")
 
