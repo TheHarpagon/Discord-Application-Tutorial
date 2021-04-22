@@ -6,11 +6,11 @@ app = Flask("")
 @app.route("/")
 
 def home():
-	return("Online!")
+  return("Online!")
 
 def run():
-	app.run(host = "0.0.0.0", port = random.randint(2000, 9000))
+  app.run(host = "0.0.0.0", port = random.randint(2000, 9000))
 
 def keepAlive():
-	thread = Thread(target = run)
-	thread.start()
+  thread = Thread(target = run)
+  thread.start()
