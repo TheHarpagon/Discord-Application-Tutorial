@@ -3,7 +3,7 @@ import datetime # date and time
 import discord # discord.py library
 from discord.ext import commands # discord.py commands extension
 from keepAlive import keepAlive # uptime script
-import os # retrieving token
+import os # retrieving bot token
 import random # random library
 
 """
