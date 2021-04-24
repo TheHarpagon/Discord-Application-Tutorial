@@ -6,7 +6,7 @@ from keepAlive import keepAlive # uptime script
 import os # retrieving token
 import random # random library
 
-""""
+"""
 command_prefix: the prefix for the bot's commands
 intents = the assigned intents the bot has
 case_insensitive = a boolean feature to allow case insensitivity when calling commands (ex: !helP would function)
