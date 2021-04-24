@@ -6,15 +6,15 @@ A tutorial on how to make a [Discord](https://discord.com) Bot with the [`discor
 &NewLine;
 ## Platforms
 
-Make sure you sign up for the following platforms before proceeding. There are no installations needed for this project.
+Make sure you sign up for the following platforms before proceeding. Since this project will be completely in the cloud, there are no installations necessary for this project.
 - [Discord](https://discord.com)
 - [Replit](https://replit.com)
 - [UptimeRobot](https://uptimerobot.com)
 
 &NewLine;
 ## Getting Started (Discord)
+This is the platform where your bot will operate
 
-This is the platform where your application will operate.
 
 ### Creating a Server
 This is where you will create the platform for your bot to function on
