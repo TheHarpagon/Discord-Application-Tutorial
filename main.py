@@ -1,10 +1,10 @@
-from art import *
-from datetime import datetime # using date and time
-import discord # latest stable discord.py release
+import art # ascii text art
+import datetime # date and time
+import discord # discord.py library
 from discord.ext import commands # discord.py commands extension
 from keepAlive import keepAlive # uptime script
-import os # for retrieving information from .env
-import random
+import os # retrieving token
+import random # random library
 
 """"
 command_prefix: the prefix for the bot's commands
@@ -13,13 +13,13 @@ case_insensitive = a boolean feature to allow case insensitivity when calling co
 """
 bot = commands.Bot(command_prefix = "!", case_insensitive = True)
 
-# bot initialization event
+# bot initialization
 @bot.event
 async def on_ready():
 	# prints the bot's username in ASCII text art
-	tprint(bot.user.name)
+	art.tprint(bot.user.name)
 	
-	# changes the Discord status of the bot
+	# changes the status of the bot
 	await bot.change_presence(status = discord.Status.online, activity = discord.Activity(type = discord.ActivityType.watching, name = "this Server"))
 
 # error handler
@@ -55,7 +55,7 @@ async def predict(ctx, *, question):
 @bot.command()
 async def color(ctx, hexCode: discord.Color):
 	await ctx.trigger_typing()
-	embed = discord.Embed(title = ":trackball: Color Search", description = str(hexCode).lower(), color = hexCode, timestamp = datetime.utcnow())
+	embed = discord.Embed(title = ":trackball: Color Search", description = str(hexCode).lower(), color = hexCode, timestamp = datetime.datetime.utcnow())
 	embed.set_footer(text = f"Requested by {ctx.author}", icon_url = ctx.author.avatar_url)
 	embed.set_image(url = f"https://www.colorhexa.com/{str(hexCode).lower()[1:]}.png")
 	await ctx.send(embed = embed)
@@ -68,4 +68,4 @@ async def dm(ctx, member: discord.Member, *, message):
 	await ctx.send(":white_check_mark: Sent!")
 
 keepAlive()
-bot.run(os.environ.get("token"), bot = True, reconnect = True)
+bot.run(os.environ["token"], bot = True, reconnect = True)
