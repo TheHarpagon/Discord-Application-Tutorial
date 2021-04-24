@@ -130,4 +130,4 @@ Go to your previously created server and test out the following commands.
 
 &NewLine;
 ## Support
-If you encountered any errors, feel free to direct message me on my Discord found [here](https://dsc.bio/TheHarpagon)!
+If you encountered any issues, feel free to direct message me on my Discord found [here](https://dsc.bio/TheHarpagon)!
