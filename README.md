@@ -1,7 +1,7 @@
 ![PyPI - Status](https://img.shields.io/pypi/status/discord.py) ![PyPI](https://img.shields.io/pypi/v/discord.py)
 # Discord Bot Tutorial
 
-A tutorial on how to make a [Discord](https://discord.com) Bot with the [`discord.py`](https://discordpy.readthedocs.io/en/latest/index.html) library along with a 24/7 uptime. This project should take anywhere from `15` to `45` minutes.
+This is a tutorial on how to make a [Discord](https://discord.com) Bot with the [`discord.py`](https://discordpy.readthedocs.io/en/latest/index.html) library along with a 24/7 uptime. This project should take anywhere from `15` to `45` minutes.
 
 &NewLine;
 ## Platforms
